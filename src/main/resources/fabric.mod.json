@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "mw",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "More Weaponry",
+  "description": "This mod adds some weapons, armors and ores!",
   "authors": [
-    "Me!"
+    "LolzDEV"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.mw.core.MoreWeaponry"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mw.mixins.json"
   ],
 
   "depends": {
