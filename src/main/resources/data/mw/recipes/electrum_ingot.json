@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG ",
+    "S  ",
+    "   "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "tag": "c:silver_ingots"
+    }
+  },
+  "result": {
+    "item": "mw:electrum_ingot",
+    "count": 3
+  }
+}

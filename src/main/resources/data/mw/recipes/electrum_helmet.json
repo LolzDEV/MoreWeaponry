@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "C C",
+    "   "
+  ],
+  "key": {
+    "C": {
+      "tag": "c:electrum_ingots"
+    }
+  },
+  "result": {
+    "item": "mw:electrum_helmet",
+    "count": 1
+  }
+}

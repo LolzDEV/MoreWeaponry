@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mw:nickel_ore"
+  },
+  "result": "mw:nickel_ingot",
+  "experience": 0.15,
+  "cookingtime": 200
+}

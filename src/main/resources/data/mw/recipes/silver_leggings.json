@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "C C",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:silver_ingots"
+    }
+  },
+  "result": {
+    "item": "mw:silver_leggings",
+    "count": 1
+  }
+}

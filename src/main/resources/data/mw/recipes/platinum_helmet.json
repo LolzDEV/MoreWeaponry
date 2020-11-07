@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "C C",
+    "   "
+  ],
+  "key": {
+    "C": {
+      "tag": "c:platinum_ingots"
+    }
+  },
+  "result": {
+    "item": "mw:platinum_helmet",
+    "count": 1
+  }
+}

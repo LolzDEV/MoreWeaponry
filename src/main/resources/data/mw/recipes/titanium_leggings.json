@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "C C",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:titanium_ingots"
+    }
+  },
+  "result": {
+    "item": "mw:titanium_leggings",
+    "count": 1
+  }
+}

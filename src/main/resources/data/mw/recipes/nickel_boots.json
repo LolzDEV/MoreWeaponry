@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "C C",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:nickel_ingots"
+    }
+  },
+  "result": {
+    "item": "mw:nickel_boots",
+    "count": 1
+  }
+}

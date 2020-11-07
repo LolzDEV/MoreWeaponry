@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C C",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "result": {
+    "item": "mw:steel_chestplate",
+    "count": 1
+  }
+}

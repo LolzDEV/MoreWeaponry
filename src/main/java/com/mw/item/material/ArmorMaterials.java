@@ -1,10 +1,10 @@
 package com.mw.item.material;
 
+import com.mw.item.Items;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
@@ -14,7 +14,34 @@ import java.util.function.Supplier;
 
 public enum ArmorMaterials implements ArmorMaterial {
     COPPER("copper", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(Items.IRON_INGOT);
+        return Ingredient.ofItems(Items.COPPER_INGOT);
+    }),
+    TIN("tin", 13, new int[]{2, 4, 5, 1}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(Items.TIN_INGOT);
+    }),
+    BRONZE("bronze", 16, new int[]{4, 5, 4, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(Items.BRONZE_INGOT);
+    }),
+    STEEL("steel", 18, new int[]{4, 6, 5, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 1.0F, () -> {
+        return Ingredient.ofItems(Items.STEEL_INGOT);
+    }),
+    TITANIUM("titanium", 22, new int[]{4, 7, 7, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 2.0F, () -> {
+        return Ingredient.ofItems(Items.TITANIUM_INGOT);
+    }),
+    SILVER("silver", 16, new int[]{4, 5, 4, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(Items.SILVER_INGOT);
+    }),
+    INVAR("invar", 16, new int[]{4, 5, 4, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(Items.INVAR_INGOT);
+    }),
+    PLATINUM("platinum", 25, new int[]{5, 8, 7, 5}, 18, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 6.0F, () -> {
+        return Ingredient.ofItems(Items.PLATINUM_INGOT);
+    }),
+    ELECTRUM("electrum", 16, new int[]{4, 5, 4, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(Items.ELECTRUM_INGOT);
+    }),
+    NICKEL("nickel", 13, new int[]{2, 4, 5, 1}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(Items.TIN_INGOT);
     }),;
 
 
